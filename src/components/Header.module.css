@@ -1,0 +1,36 @@
+#container{
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    background-color:#071116;
+    color: #fefefe;
+    border-bottom: 1px solid rgb(254, 254, 254,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45%;
+}
+#navbar{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+    transform: translateX(10%);
+}
+.btn{
+    border: none;
+    color: #E0F2FE;
+    background-color: transparent;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: ease 0.2s;
+}
+.btn:hover{
+    opacity: 1;
+}
+#brand{
+    color: #fefefe;
+    font-size: 25px;
+}
