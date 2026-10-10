@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     gap: 45%;
+    z-index: 10;
 }
 #navbar{
     width: 40%;
@@ -29,8 +30,10 @@
 }
 .btn:hover{
     opacity: 1;
+    cursor: pointer;
 }
 #brand{
     color: #fefefe;
     font-size: 25px;
+    font-weight: bolder;
 }

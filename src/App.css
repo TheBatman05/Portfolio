@@ -40,3 +40,9 @@ body{
   background-color: #071116;
   font-family: Lato;
 }
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 10vh;
+}

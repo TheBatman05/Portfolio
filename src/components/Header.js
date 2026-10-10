@@ -4,8 +4,8 @@ const Header = ()=>{
         <div id={styles.container}>
             <p id={styles.brand}>Portfolio</p>
             <div id={styles.navbar}>
-                <button className={styles.btn}>Home</button>
-                <button className={styles.btn}>About</button>
+                <a href="#Home"><button className={styles.btn}>Home</button></a>
+                <a href="#About"><button className={styles.btn}>About</button></a>
                 <button className={styles.btn}>Projects</button>
                 <button className={styles.btn}>Skills</button>
                 <button className={styles.btn}>Contact</button>
