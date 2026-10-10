@@ -1,0 +1,92 @@
+.card {
+    width: 350px;
+    background-color: #111D2B;
+    border: 1px solid rgb(125, 211, 252, 0.12);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-6px);
+    border-color: rgb(125, 211, 252, 0.5);
+}
+.preview {
+    height: 190px;
+    background: radial-gradient(
+        circle at top right,
+        rgb(56, 189, 248, 0.18),
+        transparent 65%
+    );
+    background-color: #080F1A;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #7DD3FC;
+    background-color: rgb(56, 189, 248, 0.1);
+    border: 1px solid rgb(125, 211, 252, 0.2);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.previewContent {
+    text-align: center;
+    color: #E0F2FE;
+}
+.codeIcon {
+    font-size: 48px;
+    font-weight: bold;
+    color: #7DD3FC;
+}
+.previewContent p {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 8px 0 0;
+}
+.info {
+    padding: 22px;
+}
+.info h3 {
+    color: #E0F2FE;
+    font-size: 22px;
+    margin: 0 0 12px;
+}
+.description {
+    color: #94A3B8;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+.technologies span {
+    color: #7DD3FC;
+    background-color: #1E3347;
+    padding: 6px 9px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7DD3FC;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 1px solid rgb(125, 211, 252, 0.12);
+    padding-top: 16px;
+    transition: color 0.2s ease;
+}
+.link:hover {
+    color: #E0F2FE;
+}
